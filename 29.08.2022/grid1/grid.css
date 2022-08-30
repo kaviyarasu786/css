@@ -1,0 +1,91 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.parent-div
+{
+    display: grid;
+    height: 100vh;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    grid-template-columns:2fr 2fr 2fr;
+    grid-template-rows:1fr 2fr 1.5fr 1.5fr 2fr;
+    grid-gap :0.1rem;
+    grid-template-areas: 'header menu menu'
+                         'hero hero hero'
+                          'main empty image'
+                          'main empty extra'
+                          'banner banner banner';
+
+}
+.parent-div > div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header
+{
+    background-color: black;
+    color: white;
+    grid-area: header;
+}
+.menu
+{ 
+   background-color:lightskyblue;
+   color: white;
+   grid-area: menu;
+}
+.hero
+{
+    background-color: lightslategray;
+    color: white;
+    grid-area: hero;
+}
+.main
+{
+    background-color: black;
+    color: white;
+    grid-area: main;
+}
+.empty
+{
+    background-color: white;
+    grid-area: empty;
+}
+.image
+{
+    background-color: lightblue;
+    grid-area: image;
+}
+.extra
+{
+    background-color: lightseagreen;
+    grid-area: extra;
+}
+.banner
+{
+    background-color: orange;
+    grid-area: banner;
+}
+@media only screen and (max-width:768)
+{
+    .parent-div
+    {
+        display: grid;
+        grid-template-columns: 1fr 3fr 2fr;
+        grid-template-rows: 0.5fr 2fr  1.5fr 1.5fr 1fr;
+        grid-template-areas: 'header menu menu'
+                         'hero hero hero'
+                          'menu main main'
+                          'menu banner banner'
+                          'manu extra image';       
+    }
+}
+@media only screen and(min-width:320px) and(max-width:480px)
+{
+    body{background-color: aquamarine;}
+}

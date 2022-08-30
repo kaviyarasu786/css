@@ -1,0 +1,92 @@
+.parent{
+    display:grid;
+    padding: 10px;
+    
+}
+
+
+
+.one{
+    grid-column-start:1 ;
+    grid-column-end:2 ;
+    background-color: red;
+    padding: 20px 0 20px 0;
+
+}
+
+.two{
+    grid-column-start:2 ;
+    grid-column-end:5 ;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: purple;
+    padding: 20px 0 20px 0; 
+}
+.three{
+    grid-column-start:5 ;
+    grid-column-end:10 ;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    background-color: orangered;
+    padding: 20px 0 20px 0;
+}
+.four{
+    grid-column-start:10 ;
+    grid-column-end:12 ;
+    background-color: yellow;
+    padding: 20px 0 20px 0;
+}
+
+.five{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: green;
+    padding: 20px 0 20px 0;
+}
+.six{
+    grid-column-start:10 ;
+    grid-column-end:12 ;
+    background-color: rgb(35, 19, 209);
+    padding: 20px 0 20px 0;
+}
+.seven{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: rgb(22, 225, 8);
+    padding: 20px 0 20px 0;
+}
+
+.eight{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-color:darkgreen;
+    padding: 20px 0 20px 0;
+}
+
+.nine{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    padding: 20px 0 20px 0;
+    background-color: skyblue;
+}
+
+.ten{
+    grid-column-start: 10;
+    grid-column-end: 12;
+    padding: 20px 0 20px 0;
+    background-color: aquamarine;
+}
+
+.leven{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    padding: 20px 0 20px 0;
+    background-color: blueviolet;
+}
+
+.twl{
+    grid-column-start: 10;
+    grid-column-end: 12;
+    padding: 20px 0 20px 0;
+    background-color: red;
+}

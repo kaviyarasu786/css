@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html
+{
+    width: 100%;
+    height: 100%;
+}
+.a:hover{background-color: burlywood;}
+.b:hover{background-color:aquamarine;}
+.c:hover{background-color:olive;}
+.d:hover{background-color:rebeccapurple;}
+.e:hover{background-color:hotpink;}
+.f:hover{background-color:salmon;}
+.g:hover{background-color:forestgreen;}
+.opt:hover{background-color: darkblue;}
+.navbar
+{
+     background-color:darkblue;
+     height: 100px;
+     padding-top: 35px;
+     padding-left: 100px;     
+}
+.a ul li{display: none;}
+.a ul li:hover{display: block;}
+.navbar ol li
+{
+    list-style-type: none;
+    display: inline;
+    padding: 20px;
+    color: white;
+    font-size: large;
+
+}
+.opt
+{
+    display: inline;
+}
+.mainbox2 .box1
+{
+    background-image: url("https://portablepowerguides.com/wp-content/uploads/2021/08/can-i-use-my-laptop-while-charging.jpg");
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box1
+{
+    padding-left: 500px;
+    padding-top: 30px;
+    padding-right: 20px;
+}
+p
+{
+    position: absolute;
+    left: 30px;
+    color:white;
+    line-height: 25px;
+}
+h1
+{
+    color: chartreuse;
+    border-bottom: 5px solid black;
+    width: 170px;
+}
+.mainbox3
+{
+    background-color: cadetblue;
+    display: flex;
+    height: 400px;
+    padding-top: 70px;
+}
+.bone
+{
+    border: 2px solid black;
+    width: 100%;
+    height: 300px;
+    margin: 10px;
+}
+.bone h2
+{
+    text-align: center; 
+    color: darkblue;
+}
+.btwo h2
+{ 
+    text-align: center; 
+    color: darkblue;
+}
+.bthree h2
+{
+    text-align: center; 
+    color: darkblue;
+}
+.subone
+{
+    padding-top: 20px;
+    color: wheat;
+}
+.subtwo
+{
+    padding-top: 40px;
+
+}
+.btwo
+{
+    border: 2px solid black;
+    width: 100%;
+    height: 300px;
+    margin: 10px;
+}
+.bthree
+{
+    border: 2px solid black;
+    width: 100%;
+    height: 300px;
+    margin: 10px;
+}
+

@@ -1,0 +1,62 @@
+.parent
+{
+    display: grid;
+    padding: 10PX;
+}
+.item1
+{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start:1 ; 
+    grid-row-end: 3;
+    background-color: aqua;
+    padding: 20px 0 200px 0 ;
+}
+.item2
+{
+    grid-column-start: 4;
+    grid-column-end: 8;
+    background-color: orange;
+    padding: 20px 0 20px 0 ;
+}
+.item3
+{
+    grid-column-start: 8;
+    grid-column-end: 12;
+    background-color: palevioletred;
+    padding: 20px 0 20px 0 ;
+}
+.item4
+{
+    grid-column-start: 4;
+    grid-column-end: 8;
+    background-color:yellow;
+    padding: 20px 0 20px 0 ;
+}
+.item5
+{
+    grid-column-start:8 ;
+    grid-column-end:12 ;
+    background-color: aquamarine;
+    padding: 20px 0 20px 0 ;
+}
+.item6
+{
+    grid-column-start:1 ;
+    grid-column-end:4 ;
+    height: 200px;
+    /* grid-row-start: 3;
+    grid-row-end: 5; */
+    background-color: brown;
+    padding: 20px 0 200px 0 ;
+}
+.item7
+{
+    grid-column-start:4 ;
+    grid-column-end:12 ;
+    height: 100px;
+    /* grid-row-start: 3;
+    grid-row-end: 4; */
+    background-color: cadetblue;
+    padding: 20px 0 20px 0 ;
+}

@@ -1,0 +1,78 @@
+body
+{
+    background-image: url("https://c8.alamy.com/comp/MPJJY3/hacker-using-laptop-hacking-the-internet-MPJJY3.jpg");
+
+}
+.head p
+{
+   color: white;
+   text-align: center;
+}
+button
+{
+    background-color: aquamarine;
+    position: absolute;
+    left: 50%;
+}
+h2
+{
+    color: yellow;
+    text-align: center;
+}
+@media only screen and (max-width:500px)
+{
+     body
+{
+    background-image: url("https://media.istockphoto.com/photos/person-using-a-laptop-computer-with-coffee-picture-id1252123936?k=20&m=1252123936&s=612x612&w=0&h=SOlPkXf2BO2vaGBTTsXeba5NZPJS5ig3Rda26F9dXyY=");
+    background-repeat: no-repeat;
+        background-size: cover;
+    
+}
+h2
+{
+    color: green;
+    text-align: right;
+}
+.head p
+{
+   color:red;
+   text-align: right;
+   
+} 
+button
+{
+    background-color: blue;
+    position: absolute;
+    right: 1%;
+   
+    
+}
+}
+@media only screen and (min-width:500px) and (max-width:800px) 
+{
+    body
+    {
+        background-image: url("https://www.thebalancecareers.com/thmb/vJx005LrvhZ5cpNcrB_oO9Fd6zk=/3840x2160/filters:fill(auto,1)/cropped-image-of-person-using-laptop-while-writing-on-graphic-tablet-at-desk-739245371-5b1826bdeb97de003630f6ec.jpg");
+        
+        
+    }
+    .head p
+    {
+       color:blue;
+       text-align: left;
+    
+    }
+    button
+    {
+        background-color: olive;   
+        position: absolute;
+        left: 0%;
+    }
+    h2
+    {
+        color:palegoldenrod;
+        text-align: left;
+    
+    }
+
+}
